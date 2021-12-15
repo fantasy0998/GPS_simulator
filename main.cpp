@@ -12,6 +12,7 @@ int main()
 	fp = fopen("gpssim_.bin", "wb+");
 	fpw = fopen("gpssim.bin", "wb+");
 
+	int tttt = 100;
 	typedef std::complex<float> complexf;
 	int generated_samples = 0;
 	int samp_freq = 5e6;
